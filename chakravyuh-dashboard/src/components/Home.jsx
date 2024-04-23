@@ -3,7 +3,8 @@ import google from "../Landing Page Assets/google.png";
 import differentCompanies from "../Landing Page Assets/different-companies.png";
 import BusinessInterview from "../Landing Page Assets/business-interview.svg";
 import Navbar from "./Navbar";
-import { FiArrowRight } from "react-icons/fi";
+import { SignInButton } from '@clerk/clerk-react';
+
 
 
 const Home = () => {
@@ -29,9 +30,8 @@ const Home = () => {
             </div>
           </div>
           
-          <button className="secondary-button">
-            Try it Now <FiArrowRight />{" "}
-          </button>
+          {/* Clerk SignInButton */}
+          <SignInButton className="secondary-button"  mode="modal" redirectUrl="/dashboard" />
       
         </div>
         <div className="home-image-section">

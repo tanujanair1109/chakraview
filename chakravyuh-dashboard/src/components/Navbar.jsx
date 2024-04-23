@@ -21,22 +21,22 @@ const Navbar = () => {
     {
       text: "Home",
       icon: <HomeIcon />,
-      href: "home-section" // Replace "home-section" with the ID of your home section
+      href: "home-section" 
     },
     {
       text: "About",
       icon: <InfoIcon />,
-      href: "about-section" // Replace "about-section" with the ID of your about section
+      href: "about-section"
     },
     {
       text: "Testimonials",
       icon: <CommentRoundedIcon />,
-      href: "testimonials-section" // Replace "testimonials-section" with the ID of your testimonials section
+      href: "testimonials-section" 
     },
     {
       text: "Contact",
       icon: <PhoneRoundedIcon />,
-      href: "contact-section" // Replace "contact-section" with the ID of your contact section
+      href: "contact-section" 
     },
   ];
 
